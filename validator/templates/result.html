@@ -1,0 +1,16 @@
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wynik Walidacji</title>
+</head>
+<body>
+    {% if valid %}
+        <h2>Numer PESEL jest poprawny!</h2>
+        <p>Data urodzenia: {{ birth_date }}</p>
+        <p>Płeć: {{ gender }}</p>
+    {% else %}
+        <h2>Numer PESEL jest niepoprawny.</h2>
+    {% endif %}
+    <a href="{% url 'index' %}">Wróć do formularza</a>
+</body>
+</html>
