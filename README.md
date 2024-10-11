@@ -18,7 +18,7 @@ Projekt wykorzystuje:
 
    ```bash
    git clone https://github.com/MichalOkopny/Walidacja_PESEL.git
-   cd Walidacja_PESEL
+   cd pesel_validator
    python3 -m venv .venv
    source .venv/bin/activate  # Linux / macOS
    .venv\Scripts\activate     # Windows
