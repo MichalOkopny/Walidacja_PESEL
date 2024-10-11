@@ -6,13 +6,13 @@ Aplikacja Django do walidacji numeru PESEL, która umożliwia użytkownikowi spr
 ## Funkcjonalności
 - Walidacja poprawności numeru PESEL.
 - Wyświetlenie daty urodzenia oraz płci na podstawie numeru PESEL.
-- Prosty interfejs, umożliwiający użytkownikowi wpisanie numeru i natychmiastową walidację.
+- Prosty interfejs.
 
 ## Technologie
 Projekt wykorzystuje:
 - **Python** — język programowania,
 - **Django** — framework webowy,
-- **HTML** — do struktury oraz stylizacji interfejsu.
+- **HTML** — struktura interfejsu.
 
 ## Instalacja i konfiguracja
 
